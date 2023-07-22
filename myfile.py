@@ -4,5 +4,5 @@ import numpy as np
 
 st.title('Titulo del Proyecto')
 
-option = st.selectbox('¿Cómo desea ser contactado/a?','Email','Teléfono','Whatsapp'))
+option = st.selectbox('¿Cómo desea ser contactado/a?',('Email','Teléfono','Whatsapp'))
 st.write('Seleccionó:', option)
